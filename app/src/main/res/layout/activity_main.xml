@@ -14,7 +14,24 @@
         android:layout_height="match_parent" />
 
     <TextView
+        android:id="@+id/invintation_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textSize="36sp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/white"
+        android:text="Congrats you're invited to my Fornite bowling bash!" />
+
+    <TextView
+        android:id="@+id/from_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="36sp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="From Fortnite Master 201!" />
 </RelativeLayout>
